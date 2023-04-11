@@ -6,7 +6,7 @@
 Created a yoga pose suggestion according to the problem faced by you all suggestions would be given by ChatGPT.
 
 ### Home Page
-![Home Page](../src/assets/homepage.jpeg)
+![Home Page](/assets/homepage.jpeg)
 
 # Guide
 
