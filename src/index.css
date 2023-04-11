@@ -1,0 +1,91 @@
+:root {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1.1rem;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #008779;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin-top: 1rem;
+  width: 30%;
+  color: #fff;
+  transition: background 1s;
+}
+button:hover {
+  background: #005f55;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+#features{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem 0rem;
+}
+
+#features button{
+  background: transparent;
+  border: 3px solid #008779;
+}
+
+.imgDiv{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.githubLogo{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 1rem 2rem;
+  width: 40px;
+  height: 40px;
+}
+
+.result-image{
+  margin: 2rem;
+  transition: all 1s;
+}
+
+.result-image:hover{
+  transform: scale(1.5);
+}
+
+.placeholder-container{
+  margin-top: 4rem;
+}
+
+.placeholder-container p{
+  font-size: 1.3rem;
+}
+
+.placeholder-container ul{
+  text-align: center;
+  width: 67%;
+  margin: 0 auto;
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+
+.placeholder-container ul li{
+  margin-top: 2rem;
+  list-style: none;
+}
